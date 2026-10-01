@@ -1,0 +1,32 @@
+# Xilinx Vivado Build Artifacts & Logs
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.rpt
+*.vdi
+
+# Vivado Project Directories
+*.runs/
+*.sim/
+*.ip_user_files/
+*.hw/
+*.cache/
+*.gen/
+
+# Simulation artifacts
+xsim.dir/
+*.wdb
+webtalk*.xml
+webtalk*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Source report PDFs
+*.pdf
